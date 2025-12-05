@@ -9,7 +9,6 @@ const orders = [
   { id: 3, amount: 560, status: "pending" }
 ];
 
-
 Tasks:
 
 Return an array of only “pending” orders.
@@ -77,13 +76,11 @@ Two objects represent the same user:
 const userA = { name: "Ali", age: 25 };
 const userB = { country: "India", age: 26 };
 
-
 Task:
 Merge them into one object (B age overwrites A).
 
 7. Count Occurrences
 const items = ["apple", "banana", "apple", "orange", "banana", "apple"];
-
 
 Task:
 Return frequency count:
